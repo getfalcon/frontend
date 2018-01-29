@@ -1,0 +1,8 @@
+# Module Name
+name: frontend
+
+# Module Class Name
+moduleClass: \falcon\frontend\Module
+
+# Module Bootstrap Class Name
+bootstrapClass: \falcon\frontend\Bootstrap

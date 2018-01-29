@@ -1,0 +1,8 @@
+# Router backend or frontend
+router: frontend
+
+# Route
+route: frontend
+
+# Module name
+module: frontend

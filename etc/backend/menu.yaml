@@ -1,0 +1,16 @@
+menu:
+  - type: add
+    id: elements
+    title: Blog
+    module: Magefan_Blog
+    sortOrder: 1
+    resource: Cms_Page::elements
+
+  - type: add
+    id: elements2
+    title: Blog 2
+    module: Megafan
+    sortOrder: 2
+    resource: Cms_Page::elements
+    #dependsOnModule:
+    #dependsOnConfig:
