@@ -1,8 +1,13 @@
 # Module Name
-name: frontend
+name: Falcon_Frontend
 
 # Module Class Name
 moduleClass: \falcon\frontend\Module
 
 # Module Bootstrap Class Name
 bootstrapClass: \falcon\frontend\Bootstrap
+
+# Sequence
+sequence:
+  - Falcon_Theme
+  - Falcon_Config

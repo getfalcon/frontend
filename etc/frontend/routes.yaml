@@ -5,4 +5,4 @@ router: frontend
 route: frontend
 
 # Module name
-module: frontend
+module: Falcon_Frontend

@@ -11,6 +11,10 @@ namespace falcon\frontend\controllers\frontend;
 use yii\web\Controller;
 
 class IndexController extends Controller {
+
+    /**
+     * @return string the rendering result.
+     */
 	public function actionIndex() {
 		return $this->render('index');
 	}

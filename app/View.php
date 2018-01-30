@@ -6,14 +6,10 @@
  * @version    0.0.1-alpha.0.1
  */
 
-namespace falcon\frontend;
+namespace falcon\frontend\app;
 
-class Bootstrap implements \yii\base\BootstrapInterface {
 
-    /**
-     * @param \yii\base\Application $app
-     */
-	public function bootstrap($app) {
+class View extends \yii\web\View
+{
 
-	}
 }
