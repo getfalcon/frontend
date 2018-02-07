@@ -9,7 +9,14 @@
 namespace falcon\frontend\app;
 
 
+use falcon\theme\app\Theme;
+
 class View extends \yii\web\View
 {
 
+    /**
+     * @var Theme|array|string the theme object or the configuration for creating the theme object.
+     * If not set, it means theming is not enabled.
+     */
+    public $theme;
 }
