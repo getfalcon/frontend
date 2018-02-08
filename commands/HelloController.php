@@ -28,8 +28,6 @@ class HelloController extends Controller {
 	 */
 	public function actionIndex($message = 'hello world') {
 		echo $message . "\n";
-		var_dump(ComponentRegistrar::getPaths(ComponentRegistrar::MODULE));
-
 		return ExitCode::OK;
 	}
 }

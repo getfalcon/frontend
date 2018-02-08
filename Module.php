@@ -16,8 +16,6 @@ class Module extends \falcon\core\base\Module {
 
 	public function events() {
 
-		var_dump('#eee');
-
 		return parent::events();
 	}
 }
